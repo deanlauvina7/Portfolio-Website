@@ -7,13 +7,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root {
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Fonts and Typography =====*/
 :root {
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -29,7 +29,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -411,6 +411,21 @@ img {
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+
+.footer__icon .bxl-facebook:hover {
+  color: #3b5998;
+  transition: 0.2s ease;
+}
+
+.footer__icon .bxl-instagram:hover {
+  color: #3f729b;
+  transition: 0.2s ease;
+}
+
+.footer__icon .bxl-twitter:hover {
+  color: #00acee;
+  transition: 0.2s ease;
 }
 
 /* ===== MEDIA QUERIES=====*/
