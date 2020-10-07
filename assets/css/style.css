@@ -267,6 +267,13 @@ img {
   font-weight: var(--font-semi);
   border-radius: .5rem;
   margin: 15px;
+  bottom: 0;
+}
+
+.button-section {
+  position: absolute;
+  bottom: 0;
+  background-color: blue;
 }
 
 .button:hover {
@@ -375,6 +382,10 @@ img {
   flex-direction: row;
   justify-content: flex-start;
   padding: 5px;
+}
+
+.work__container p {
+  margin: 5px auto;
 }
 
 .tech-container li {
