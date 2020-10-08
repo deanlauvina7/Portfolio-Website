@@ -262,10 +262,7 @@ img {
 .view-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  background-color: red;
-  position: relative;
-  bottom: 0;
+  justify-content: space-around;
 }
 
 .view-button {
@@ -382,14 +379,14 @@ img {
   justify-content: space-evenly;
 }
 
+.work__img p {
+  padding: 0 5px;
+}
+
 .tech-container {
   display: flex;
   flex-direction: row;
   padding: 5px;
-}
-
-.work__container p {
-  margin: 5px auto;
 }
 
 .tech-container li {
