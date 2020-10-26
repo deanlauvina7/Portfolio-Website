@@ -422,6 +422,12 @@ img {
   transform: scale(1.05);
 }
 
+.work__img video:hover {
+  transition: 1s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
