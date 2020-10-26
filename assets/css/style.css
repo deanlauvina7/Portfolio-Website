@@ -345,20 +345,10 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
-}
-
+.skills__html,
+.skills__css,
 .skills__js {
-  width: 65%;
-}
-
-.skills__ux {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__img {
