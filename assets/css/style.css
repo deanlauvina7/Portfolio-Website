@@ -243,12 +243,10 @@ img {
 
 .home__img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -10rem;
+  bottom: 0; 
   width: 295px;
-  border-radius: 50%;
 }
-
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -347,7 +345,7 @@ img {
 
 .skills__html,
 .skills__css,
-.skills__js {
+.skills__bootstrap {
   width: 100%;
 }
 
@@ -396,6 +394,10 @@ img {
 
 .tech-container .javascript {
   color: rgb(225, 55, 132);
+}
+
+.tech-container .api {
+  color: #ED2C49;
 }
 
 .work__img h2 {
